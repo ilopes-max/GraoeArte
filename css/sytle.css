@@ -1,5 +1,6 @@
 @import url('./variable.css');
 @import url('./reset.css');
+
 .header{
     position: fixed;
     top: 0;
@@ -96,6 +97,167 @@
     width: 100%;
     border-radius: var(--radius-sm);
     object-fit: cover;
+}
+
+.card-xicara{
+background-color:var(--color-bg-card);
+border: 1px solid var(--color-bg-main);
+border-radius: 8px;
+padding: 20px;
+text-align: left;
+box-shadow: 0 2px 8px var(--shadow-card);
+transition: transform 0.2s ease, box-shadow 0.2s ease;  
+}
+.card-xicara:hover {
+transform: translateY(-3px);
+box-shadow: 0 5px 15px var(--shadow-hoverM);
+}
+
+.card-xicara img {
+width: 400px;
+height: 300px;
+object-fit: cover;
+border-radius: 6px;
+margin-bottom: 15px;
+}
+
+.card-xicara h3 {
+font-size: 1.1rem;
+color:var(--color-text-title);
+margin-bottom: 10px;
+}
+
+.card-xicara p {
+font-size: 0.9rem;
+color:var(--color-text-muted);
+}
+.card-graos{
+background-color:var(--color-bg-card);
+border: 1px solid var(--color-bg-main);
+border-radius: 8px;
+padding: 20px;
+text-align: left;
+box-shadow: 0 2px 8px var(--shadow-card);
+transition: transform 0.2s ease, box-shadow 0.2s ease;  
+}
+.card-graos:hover {
+transform: translateY(-3px);
+box-shadow: 0 5px 15px var(--shadow-hoverM);
+}
+
+.card-graos img {
+width: 400px;
+height: 300px;
+object-fit: cover;
+border-radius: 6px;
+margin-bottom: 15px;
+}
+
+.card-graos h3 {
+font-size: 1.1rem;
+color:var(--color-text-title);
+margin-bottom: 10px;
+}
+
+.card-graos p {
+font-size: 0.9rem;
+color:var(--color-text-muted);
+}
+.card-graos{
+background-color:var(--color-bg-card);
+border: 1px solid var(--color-bg-main);
+border-radius: 8px;
+padding: 20px;
+text-align: left;
+box-shadow: 0 2px 8px var(--shadow-card);
+transition: transform 0.2s ease, box-shadow 0.2s ease;  
+}
+.card-graos:hover {
+transform: translateY(-3px);
+box-shadow: 0 5px 15px var(--shadow-hoverM);
+}
+
+.card-graos img {
+width: 400px;
+height: 300px;
+object-fit: cover;
+border-radius: 6px;
+margin-bottom: 15px;
+}
+
+.card-graos h3 {
+font-size: 1.1rem;
+color:var(--color-text-title);
+margin-bottom: 10px;
+}
+
+.card-graos p {
+font-size: 0.9rem;
+color:var(--color-text-muted);
+}
+.card-cafe{
+background-color:var(--color-bg-card);
+border: 1px solid var(--color-bg-main);
+border-radius: 8px;
+padding: 20px;
+text-align: left;
+box-shadow: 0 2px 8px var(--shadow-card);
+transition: transform 0.2s ease, box-shadow 0.2s ease;  
+}
+.card-cafe:hover {
+transform: translateY(-3px);
+box-shadow: 0 5px 15px var(--shadow-hoverM);
+}
+
+.card-cafe img {
+width: 400px;
+height: 300px;
+object-fit: cover;
+border-radius: 6px;
+margin-bottom: 15px;
+}
+
+.card-cafe h3 {
+font-size: 1.1rem;
+color:var(--color-text-title);
+margin-bottom: 10px;
+}
+
+.card-cafe p {
+font-size: 0.9rem;
+color:var(--color-text-muted);
+}
+.card-cafe{
+background-color:var(--color-bg-card);
+border: 1px solid var(--color-bg-main);
+border-radius: 8px;
+padding: 20px;
+text-align: left;
+box-shadow: 0 2px 8px var(--shadow-card);
+transition: transform 0.2s ease, box-shadow 0.2s ease;  
+}
+.card-cafe:hover {
+transform: translateY(-3px);
+box-shadow: 0 5px 15px var(--shadow-hoverM);
+}
+
+.card-cafe img {
+width: 400px;
+height: 300px;
+object-fit: cover;
+border-radius: 6px;
+margin-bottom: 15px;
+}
+
+.card-cafes h3 {
+font-size: 1.1rem;
+color:var(--color-text-title);
+margin-bottom: 10px;
+}
+
+.card-cafe p {
+font-size: 0.9rem;
+color:var(--color-text-muted);
 }
 /* seção faq */
 .faq {
